@@ -1,0 +1,15 @@
+# Secrets
+.env
+
+# Python artifacts
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Trained model checkpoint (rebuild with CLI)
+models/*.pt
+
+# Local datasets; keep the small public starter dataset tracked
+data/*
+!data/products.jsonl
